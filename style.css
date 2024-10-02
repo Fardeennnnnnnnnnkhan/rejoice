@@ -1,0 +1,559 @@
+@font-face {
+  font-family: fardeen;
+  src: url(NBInternationalProBoo.woff2);
+}
+@font-face {
+  font-family: fardeen2;
+  src: url(Rejouice-Headline.woff2);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+.main {
+  background-color: white;
+position: relative;
+z-index: 999;
+
+}
+.page1 {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: white;
+
+}
+.page1 video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+.page1-front {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  z-index: 999;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  padding: 3vw 2vw;
+}
+nav h3 {
+  font-size: 1.5vw;
+  font-family: fardeen;
+  font-weight: 400;
+}
+nav h4 {
+  font-size: 1.5vw;
+  font-family: fardeen;
+  font-weight: 400;
+  cursor: pointer;
+}
+.page1-front h1 {
+  font-family: fardeen2;
+  line-height: 26vw;
+  font-size: 26vw;
+  font-weight: 100;
+}
+.page1-front h1 span {
+  line-height: 26vw;
+  font-size: 26vw;
+  font-family: fardeen2;
+}
+.cursor{
+    height: 7vw;
+    width: 7vw;
+    background-color: #ff5f38;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-50%,-50%);
+}
+.cursor h4{
+  font-weight: 100;
+    font-family: fardeen2;
+}
+
+#page2{
+height: 100vh;
+width: 100%;
+background-color: white;
+position: relative;
+
+}
+.head{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6vw 3vw 0vw 3vw;
+}
+.head:nth-child(1){
+  font-size: 1.7vw;
+}
+.head:nth-child(2){
+  font-size: 1.2vw;
+}
+.head p{
+  font-family: fardeen2;
+
+}
+.line{
+margin: 0px auto;
+  background-color: rgb(154, 147, 147);
+  height: 1px;
+  width: 93%;
+  margin-top: 2vw;
+
+}
+.Mainpara{
+  width: 95%;
+  margin: auto;
+  margin: 2vw;
+  text-align: justify;
+}
+.Mainpara h1{
+  font-size: 3.8vw;
+  font-family: fardeen;
+  font-weight: 100;
+}
+
+#page3{
+  width: 100%;
+  min-height:100vh;
+  padding: 0vw 4vw;
+  background-color: white;
+}
+.page3-first{
+  /* height: 60vh; */
+  margin: auto;
+text-align: center;
+padding: 9vw 5vw;
+}
+.page3-first h4{
+  font-size: 1.4vw;
+font-family: fardeen;
+font-weight: 500;
+margin-bottom: 2vw;
+}
+.page3-first h4 span{
+  font-size: 1vw;
+font-family: fardeen;
+font-weight: 500;
+background-color: black;
+color: white;
+padding: 5px 6px;
+border-radius: 10px;
+
+}
+.page3-first h1{
+  font-size: 4.5vw;
+  text-decoration: 2.3px solid black underline;
+  font-family: fardeen;
+font-weight: 500;
+
+}
+.page3-second{
+  height: 75vh;
+  width: 100%;
+  display: flex;
+}
+
+.page3-second .box{
+  margin:0vw 1vw;
+height: 75vh;
+width: 33%;
+position: relative;
+}
+
+.page3-second .box video{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  background-color: burlywood;
+opacity: 0;
+}
+.page3-second .box img{
+  height: 100%;
+  width: 100%;
+position: absolute;
+opacity: 1;
+}
+.page3-second .box:hover video{
+opacity: 1;
+}
+.page3-second .box:hover img{
+opacity: 0;
+}
+
+
+#page2-2{
+  height: 80vh;
+  width: 100%;
+  position: relative;
+  background-color: white;
+  }
+.Mainpara2{
+  width: 95%;
+  margin: auto;
+  margin: 1vw 4vw;
+  text-align: justify;
+}
+.Mainpara2 h1{
+  font-size: 4vw;
+  font-family: fardeen;
+  font-weight: 100;
+}
+#page4{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+position: relative;
+background-color: white;
+}
+#page4 video{
+  height: 100%;
+
+}
+#page4 svg{
+  position: absolute;
+  height: 65vh;
+}
+#page5{
+  height: 100vh;
+  width: 100%;
+  padding: 4vw 0vw;
+  position: relative;
+  background-color: white;
+}
+#page5 h1{
+  font-size: 9vw;
+  font-family: fardeen2;
+  font-weight: 100;
+  width: 96%;
+  margin-left: 2%;
+  border-bottom: 1px solid grey;
+}
+.swiperdiv{
+  height: 60vh;
+  max-width: 100%;
+  position: relative;
+  margin-top: -4%;
+  position: relative;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  display: block;
+  margin-top: -8%;
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 19%;
+  object-fit: cover;
+}
+#loader{
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  position: fixed;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+opacity: 1;
+transition: all 1s ease-in;
+}
+#loader h2{
+  position: relative;
+  animation-name: load;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  color: rgb(225, 215, 215);
+  font-size: 2vw;
+font-family: fardeen;
+transition: all 1s ease-in-out;
+
+}
+
+
+@keyframes load {
+ 0%{
+   left:10%
+  }
+  10%{
+  left: 0%;
+ }
+
+}
+
+#footer{
+  height:100vh;
+  width:100%;
+  background-color:black;
+color: white;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+.footerdiv{
+  display: flex;
+  justify-content: space-between;
+  padding: 1vw 3vw;
+}
+
+.right h1{
+  font-size: 1.8vw;
+  font-family: fardeen2;
+  font-weight: 100;
+  padding: 4px 4px;
+}
+.right button{
+  
+  font-size: 1vw;
+  text-align: center;
+  border: 1px solid white;
+  padding: 1.6vw 1.8vw;
+  background-color: black;
+  color: white;
+  margin-top: 1.3vw;
+  border-radius: 10px;
+}
+.left{
+  display: flex;
+  gap:5vw;
+}
+.left li {
+  list-style: none;
+
+}
+.left li a{
+  text-decoration: none;
+  color: white;
+  font-size: 1.1vw;
+  font-family: fardeen2;
+  font-weight: 100;
+}
+
+.footer-bottom{
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  padding: 0vw 3vw ;
+}
+.bottomleft , .bottomright p{
+  font-family: fardeen2;
+  font-size: 1.3vw;
+}
+.bottomleft {
+  display: flex;
+  gap: 3vw;
+}
+.footerbase{
+  text-align: center;
+}
+.footerbase h1{
+font-size:20vw ;
+font-family: fardeen2;
+/* line-height: 26vw; */
+/* font-weight: 100; */
+}
+.footerbase h1 span{
+
+  line-height: 26vw;
+  font-size: 26vw;
+  font-family: fardeen2;
+}
+
+
+@media only screen and (max-width: 600px) {
+nav h3{
+  font-size: 4.5vw;
+  
+}
+nav h4{
+  font-size: 4.5vw;
+}
+.page1-front h1 {
+line-height: 50vw;
+}
+
+#page2 {
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  height: 64vh;
+}
+
+.head:nth-child(1) {
+  font-size: 3.7vw;
+}
+.Mainpara h1 {
+  font-size: 5vw;
+}
+.page3-first h4 {
+  font-size: 3.4vw;
+}
+.page3-first h1 {
+  font-size: 6.5vw;
+}
+.page3-second .box {
+  margin: 0vw 0vw;
+  height: 60vh;
+}
+#page2-2 {
+  height: 50vh;
+}
+.Mainpara2 h1 {
+  font-size: 6vw;
+}
+
+#page5 h1 {
+  font-size: 12vw;
+}
+
+.swiperdiv {
+  height: 14vh;
+}
+
+
+.swiperdiv {
+  height: 14vh;
+
+}
+#footer{
+  height:75vh;
+}
+.right h1{
+  font-size: 4.8vw;
+  padding: 9px 8px;
+}
+.right button{
+font-size: 4vw;
+padding: 2.6vw 2.2vw;
+}
+
+.left li a {
+  font-size: 3.2vw;
+}
+
+.footerdiv {
+  flex-direction: column;
+}
+.left {
+  justify-content: space-between;
+}
+
+
+.bottomleft, .bottomright p {
+  font-family: fardeen2;
+  font-size: 4.4vw;
+}
+
+.footerbase h1 span {
+  line-height: 26vw;
+  font-size: 28vw;
+  font-family: fardeen2;
+  font-weight: 100;
+}
+}
+
+
+
+.fixed{
+  height: 60vh;
+  width: 100%;
+  position: fixed;
+  /* display: none; */
+  top: 0%;
+  z-index: 9999;
+  background-color: #ff5f38;
+  transition: all 1s ease ;
+  display: flex;
+  justify-content: space-between;
+  padding: 3vw;
+}
+.fixed-right h3{
+font-size: 1.8vw;
+font-family: fardeen;
+font-weight: 100;
+}
+.fixed-right video{
+height: 15vw;
+width: 22vw;
+}
+.fixed-left{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.li li {
+  list-style: none;
+}
+.li li a{
+  text-decoration: none;
+  color: black;
+  font-size: 3.4vw;
+  font-family: fardeen2;
+  font-weight: 100;
+
+}
+.li li a:hover{
+  text-decoration: underline;
+}
+.fixed-left button{
+  font-size: 1vw;
+  text-align: center;
+  border: 1px solid black;
+  padding: 1vw 1.8vw;
+  background-color: #ff5f38;;
+  color: black;
+  margin-top: 1.3vw;
+  border-radius: 10px;
+  width: 33%;
+  cursor: pointer;
+}
+.close h3{
+  font-size: 1.5vw;
+  font-family: fardeen;
+  font-weight: 100;
+}
+.close h3:hover{
+text-decoration: underline;
+}
+nav h4:hover{
+  text-decoration: underline;
+  }
